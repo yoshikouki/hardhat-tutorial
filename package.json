@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/yoshikouki/hardhat-tutorial/issues"
   },
-  "homepage": "https://github.com/yoshikouki/hardhat-tutorial#readme"
+  "homepage": "https://github.com/yoshikouki/hardhat-tutorial#readme",
+  "devDependencies": {
+    "hardhat": "^2.9.1"
+  }
 }
