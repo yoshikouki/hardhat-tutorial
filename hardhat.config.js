@@ -8,9 +8,8 @@ const ALCHEMY_API_KEY = "X0d4rGjANh1oWxNVVRQIYtfRyC7q9cNI";
 // To export your private key from Metamask, open Metamask and
 // go to Account Details > Export Private Key
 // Be aware of NEVER putting real Ether into testing accounts
-// const fs = require('fs');
-// const ROPSTEN_PRIVATE_KEY = fs.readFileSync(".secret").toString().trim();
-const ROPSTEN_PRIVATE_KEY = "ROPSTEN_PRIVATE_KEY";
+const fs = require('fs');
+const ROPSTEN_PRIVATE_KEY = fs.readFileSync(".secret").toString().trim();
 
 /**
  * @type import('hardhat/config').HardhatUserConfig
