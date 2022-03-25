@@ -4,3 +4,4 @@
 # hardhat
 /artifacts
 /cache
+/.secret
